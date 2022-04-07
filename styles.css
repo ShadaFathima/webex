@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: monospace;
+}
+header{
+    margin: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ECA6A6;
+    border-radius: 0.5rem;
+    transition: all 0.8s;
+}
+header:hover{
+    transform: scale(1.02);
+}
+.logo{
+    height: fit-content;
+}
+.logo-img{
+    height: 10rem;
+}
+.nav{
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.nav_items{
+    padding: 0 1rem;
+    text-decoration: none;
+    color:#ECA6A6;
+}
+.home{
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    transition: all 0.7s;
+}
+.home:hover{
+    color: #9e3c3c;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.about{
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    transition: all 0.7s;
+
+}
+.about:hover{
+    color: #9e3c3c;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.education{
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    transition: all 0.7s;
+
+}
+.education:hover{
+    color: #9e3c3c;
+    font-weight: bolder;
+    font-size: x-large;    
+}
+.contacts{
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    transition: all 0.7s;
+
+}
+.contacts:hover{
+    color: #9e3c3c;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.container{
+    margin: 3rem;
+    margin-right: 0%;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.container-box{
+    display: flex;
+    justify-content: space-between;
+    padding-left:  3rem;
+    height: 800px; 
+    width: 2000px;
+    margin-left :5rem; 
+    margin-top: 5rem;
+}
+.content{
+    margin-top: 2rem;
+    padding: 2rem;
+    padding-right: 4rem;
+    display: block;
+    justify-content: space-between;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(202, 103, 103);
+    border-radius: 2rem; 
+    align-items: center;
+}
+.images{
+    height: fit-content;
+}
+.my-img{
+    margin-left: 10rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    height: 30rem;
+    border-radius: 25rem;
+}
+.content h1{
+    color: rgb(255, 236, 236);
+    display: block;
+    text-align: center;
+}
+.content span{
+    color: #812e2e;
+    display: block;
+    padding: 1rem 0;
+}
+.para{
+    color: rgb(0, 0, 0);
+    padding-bottom: 2rem;
+    font-size: larger;
+    font-weight: bold;
+} 
+section #contacts{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    margin: 0%;
+    padding: 0%;
+    height: 200px;
+    border-radius: 1rem;
+    background-color: rgb(51, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_media{
+    display: block;
+    align-items: center;
+    padding: 1rem;
+}
+.media{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+#media-facebook{
+    padding: 0.4rem;
+    border: 2px;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 1.1rem;
+}
+#media-whatsapp{
+    padding: 0.4rem;
+    border: 2px;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 1.1rem;    
+}
+#media-insta{
+    padding: 0.4rem;
+    border: 2px;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 1.1rem;
+}
+
+#media-in{
+    padding: 0.4rem;
+    border: 2px;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 1.1rem;
+}

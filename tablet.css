@@ -1,0 +1,21 @@
+
+
+@media (max-width: 1024px){
+    .container{
+        margin: 0%;
+        display: flex;
+        height: fit-content;
+        width: fit-content;
+    }
+    .container-box{
+        display: block;
+        height: fit-content;
+        width:fit-content;
+        margin: 2rem;
+        padding: 0;
+    }
+    .my-img{
+        margin: 2rem;
+        margin-left: 6rem;
+    } 
+}
